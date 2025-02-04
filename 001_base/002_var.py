@@ -55,10 +55,35 @@ print(text[-1])
 print("\nСрезы строк")
 date = '01-05-1994'
 year = date[6:10]
-print(year)  # => '1994'
+print(year)  # => '1994'пш
 
 value = 'Привет'
-one = value[3:]  
-two = value[:3]  
+one = value[3:] # 'вет'
+two = value[:3]  # 'При'
 print(one) # 'вет'
 print(two) # 'При'
+
+# Правая граница отрицательная. Считаем -1 от конца строки
+one = value[3:-1]  # 'ве'
+# Левая граница отрицательная. Считаем -5 от конца строки
+two = value[-5:3]  # 'ри'
+print(one) # 'ве'
+print(two) # 'ри'
+
+text = value[1:5:2]  # рв
+# 1:5 это 'риве'
+# шаг 2 это каждый второй, то есть 'р' и 'в'
+
+print(text) # 'рв'
+
+value = 'Привет'
+one = value[:5:2]  # 'Пие'
+two = value[1::2]  # 'рвт'
+
+print(one) # 'Пие'
+print(two) # 'рвт'
+
+value = 'Привет'
+text = value[::-1]  # Не указываем обе границы
+
+print(text) # 'тевирП'
