@@ -7,6 +7,7 @@ def test_status_code():
 
 
 def test_is_response_has_body():
-    response = requests.get('https://petstore.swagger.io/v2/pet/703850', verify=False)
+    response = requests.get('https://petstore.swagger.io/v2/pet/10997', verify=False)
     jresp = response.json()
-    assert jresp["id"] == 703850
+    assert jresp["id"] == 10997
+

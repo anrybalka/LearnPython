@@ -2,7 +2,7 @@
 import requests
 import json
 
-response = requests.get('https://petstore.swagger.io/v2/pet/703850', verify=False)
+response = requests.get('https://petstore.swagger.io/v2/pet/10997', verify=False)
 
 print(response)
 
