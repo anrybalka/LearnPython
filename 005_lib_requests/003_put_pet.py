@@ -2,9 +2,9 @@ import requests
 import json
 
 response = requests.put('https://petstore.swagger.io/v2/pet', verify=False, headers={"Content-Type":"application/json"}, json={
-    "id": 9223372036854764524,
+    "id": 703850,
     "category": {
-        "id": 0,
+        "id": 2020,
         "name": "string"
     },
     "name": "fish",
