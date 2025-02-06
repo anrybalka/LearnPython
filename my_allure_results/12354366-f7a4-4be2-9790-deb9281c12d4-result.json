@@ -1,0 +1,1 @@
+{"name": "test_site", "status": "passed", "description": "\n    Тест, который проверяет каждую страницу.\n    ", "start": 1738877735505, "stop": 1738877879144, "uuid": "c85f5e8f-ff63-45ed-974b-951c5cdd7c22", "testCaseId": "5e23a374c725735fbee59921a63f0795", "fullName": "007_selenium.tests.test_002_film_like#test_site"}

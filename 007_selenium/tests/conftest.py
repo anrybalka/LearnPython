@@ -24,6 +24,8 @@ def browser():
     chrome_options.add_argument("start-maximized")
     chrome_options.add_argument("--disable-infobars")
     chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--headless")  # Включаем headless-режим
+    chrome_options.add_argument("--disable-gpu")  # Отключаем GPU (рекомендуется для headless)
 
     # установить свежий драйвер прослойку между кодом и браузером
     service = Service(ChromeDriverManager().install())

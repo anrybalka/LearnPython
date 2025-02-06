@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
 
-URL = "https://film-like.com/spisok/713-filmi-dlya-podnyatiya-motivatsii"
+URL = "https://postcard.qa.studio/"
 
 def test_button(browser):
     """
